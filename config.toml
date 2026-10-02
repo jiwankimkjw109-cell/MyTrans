@@ -1,0 +1,14 @@
+[server]
+headless = true
+port = 8501
+
+[browser]
+gatherUsageStats = false
+
+# [theme]에 색을 지정하면 커스텀 테마로 고정되어 다크 모드 자동 전환이 꺼진다.
+# 라이트/다크 각각에 지정해야 시스템 설정에 따라 전환된다.
+[theme.light]
+primaryColor = "#4F46E5"
+
+[theme.dark]
+primaryColor = "#6366F1"
